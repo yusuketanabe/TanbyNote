@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block body %}
+<h1><a href="/">Tanby Note</a><span class="smily">☺</span></h1>
+<hr>
+<div class="content">
+  <h4 class="ctitle">{{ content.title }}<span class="date">{{ content.date }}</span></h4>
+  <div class="text-area"><p class="text">{{ content.body }}</p></div>
+</div>
+{% endblock %}

@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block body %}
+<h1><a href="/">Tanby Note</a><span class="smily">☺</span></h1>
+<hr>
+<ul>
+  {% for content in contents[-1::-1] %}
+  <li><a href="{{ url_for('page', title=content.title) }}"><span class="ctitle">{{ content.title }}</span><span class="date">{{ content.date }}</span></a></li>
+  {% endfor %}
+</ul>
+{% endblock %}
