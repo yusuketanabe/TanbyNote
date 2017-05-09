@@ -10,4 +10,4 @@ local memo app used database
 >>> db_session.add(VAR)
 >>> db_session.commit()
 ```
-3. Open browser and input 'localhost:5000'. You get local notebook!
+3. Open browser and input 'localhost:5000'.
