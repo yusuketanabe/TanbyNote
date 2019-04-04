@@ -50,7 +50,7 @@ li {
 /* Text */
 body {
   font-family: Roboto;
-  font-size: 18px; 
+  font-size: 18px;
   margin: 0;
 }
 .ctitle {
@@ -101,19 +101,19 @@ h4 {
   background: #777;
   color: #eee;
   border-radius: 5px;
-  content: "!";
+  content: "?";
 }
 .smily:hover:before {
   position: absolute;
-  top: 16px;
-  right: -7px;
+  top: 14px;
+  right: -9px;
   display: inline-block;
   width: 0;
   height: 0;
   border-color: transparent #777 transparent transparent;
-  border-radius: 5px;
+  border-radius: 0px;
   border-style: solid;
-  border-width: 6px 6px 0 20px;
+  border-width: 8px 8px 0px 10px;
   content: "";
 }
 .text {
